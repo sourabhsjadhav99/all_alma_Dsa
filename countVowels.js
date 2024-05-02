@@ -25,6 +25,13 @@ function countVowels(str) {
     return count;
 }
 
+
+// function countVowels(str) {
+//     let regex = /[aeiou]/gi
+//   return str.match(regex).length
+//  }
+
+
 // Changed the loop condition from <= to < to ensure that the loop runs until the last character of the string (lowerStr.length - 1) without going beyond it.
 
 console.log(countVowels("AlmaBetter")); // Output: 4
